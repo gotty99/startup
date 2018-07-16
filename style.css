@@ -27,7 +27,9 @@ html {
   .section6,
   .section7,
   .section8,
-  .section9 {
+  .section9,
+  .section10,
+  .section11 {
       border-bottom: 1px solid #e9e9e9; 
   }
 
@@ -43,7 +45,9 @@ html {
   .section-wrapper6,
   .section7-wrapper,
   .section8-wrapper,
-  .section9-wrapper {
+  .section9-wrapper,
+  .section10-wrapper,
+  .section11-wrapper {
       /* outline: 1px solid; */
       margin-left: auto;
       margin-right: auto;
@@ -57,7 +61,10 @@ html {
   .section-wrapper6,
   .section7-wrapper,
   .section8-wrapper,
-  .section9-wrapper {
+  .section9-wrapper,
+  .section10-wrapper,
+  .section11-wrapper,
+  .footer-wrapper {
       padding: 64px 12px;
   }
   
@@ -122,7 +129,7 @@ html {
   }
   .red-link {
       background-color: var(--main-color);
-      padding: 14px 40px;
+      padding: 14px 40px 12px;
       border-radius: 36px;
       color: white;
       text-decoration: none;
@@ -280,8 +287,8 @@ html {
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: -7px;
-        left: 83px;
+        bottom: 20px;
+        left: 90px;
         background-color: white;
         border-radius: 100%;
     }
@@ -316,7 +323,11 @@ html {
 }
 
 .grid-pic-wrapper:hover,
-.previous-icons:hover {
+.previous-icons:hover,
+.img10:hover,
+.pic-row img:hover,
+.pic-row2 img:hover,
+.text10 img:hover {
     filter: grayscale(0);
     transition: all .3s ease;
 }
@@ -592,8 +603,182 @@ html {
 
 .mini-items:hover {
     cursor: pointer;
+    background: #f6f6f6;
+    transition: all .3s ease;
 }
 
 .first-item {
     border-left: 1px solid #eee;
 }
+
+/* section9 ends here */
+
+/* section10 starts here */
+
+.text10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text10 h2 {
+    font-size: 35px;
+    margin: 0 0 52px 0;
+}
+
+.text10 h3 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.img10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100);
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.img-properties {
+    width: 260px;
+    height: auto;
+}
+
+.pic-row img {
+    width: 180px;
+    height: auto;
+    margin: 16px 48px;
+    filter: grayscale(100);
+}
+
+.pic-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-row-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottom {
+    border-bottom: 1px solid #e9e9e9; 
+}
+
+.left-r {
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+
+.right-bord {
+    border-right: 1px solid #e9e9e9;
+}
+
+.pic-row2 img {
+    width: 110px;
+    height: auto;
+    margin: 16px 36px;
+    filter: grayscale(100);   
+}
+
+.pic-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-row-wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.text10 img {
+    filter: grayscale(100)
+}
+
+.section10-wrapper p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px; 
+}
+
+/* section10 ends here */
+
+/* section11 starts here */
+
+.section11-wrapper {
+    color: #999999
+}
+
+.section11-wrapper h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 16px;
+}
+
+/* section11 ends here */
+
+/* footer starts here */
+
+.ul-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #999999;
+    line-height: 1.2;
+}
+
+.ul-h4 {
+    margin: 0 0 8px;   
+}
+
+.ul-wrapper ul li {
+    list-style: none;
+}
+
+.ul-wrapper ul li a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.ul-wrapper ul li a:hover {
+    color: #000;
+}
+
+.mini-items-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mini-items-11-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-item11 a {
+    padding:0 15px; 
+    text-decoration: none;
+    color: #999999;
+}
+
+.mini-item11 a:hover {
+    color: #000;
+    transition: all .2s ease;
+}
+
+.p-wrapper p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #999999;
+}
+
+/* footer ends here */
