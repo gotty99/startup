@@ -1,2 +1,2 @@
 # startup
-link in " gh-pages "
+link in " gh-pages " branch
